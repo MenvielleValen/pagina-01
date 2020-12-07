@@ -295,7 +295,7 @@ footer{
     margin-bottom: 60px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1080px){
     .menu-navegacion{
         width: 50vw;
     }
@@ -304,9 +304,11 @@ footer{
         font-size: 40px;
     }
     
-    .contenedor-serivico-img{
+    .contenedor-servicio img{
         width: 80%;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
+      
+        
     }
 
     .checklist-servicio{
@@ -318,9 +320,10 @@ footer{
     }
     .agregar-imagen{
         width: 80%;
+        height: 80%;
     }
     .img-galeria{
-        width: 45%;
+        width: 65%;
     }
     .cont-expert{
         width: 80%;
@@ -345,32 +348,4 @@ footer{
         margin-bottom: 40px;
     }
 }
-@media screen and (max-width:500px){
-    .menu-navegacion{
-        width: 65vw;
-    }
-    .hamburger{
-        top: 20px;
-        right: 20px;
-    }
-    .titulo{
-        font-size: 30px;
-    }
-    .subtitulo{
-        font-size: 30px;
-    }
-    .agregar-imagen{
-        width: 95%;
-    }
 
-    .img-galeria{
-        width: 95%;
-    }
-
-    .social-media{
-        width: 100%;
-    }
-    .contact-us{
-        width: 90%;
-    }
-}
